@@ -12,9 +12,7 @@
     --green-gradient: (280deg, #57910F 38.37%, rgba(87, 145, 15, 0.00) 92.64%);
     --yellow-gradient: (180deg, #FED007 -29.6%, rgba(254, 208, 7, 0.00) 100%);
 }
-html {
-    background-color: var(--white);
-}
+
 
 /* NavBar  */
 .navBar {
