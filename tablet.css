@@ -1,0 +1,95 @@
+/* Estilos para pantallas medianas (tabletas y portátiles) */
+@media (max-width: 1023px) {
+    .navBar-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .main-container {
+        height: 400px;
+    }
+
+    main .main-title {
+        font-size: 48px;
+    }
+
+    main .main-subtitle-title {
+        font-size: 36px;
+    }
+
+    main .main-subtitle {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .service-container {
+        margin: 48px;
+    }
+
+    .service-container-services {
+        gap: 40px;
+    }
+
+    .service,
+    .service-green {
+        width: 240px;
+        font-size: 16px;
+    }
+
+    .container-title-gradient h2 {
+        font-size: 36px;
+        padding-top: 32px;
+    }
+
+    .about-container-card {
+        height: 300px;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .card span {
+        font-size: 14px;
+    }
+
+    .apply-container img {
+        width: 360px;
+        height: 240px;
+        padding-left: 80px;
+        margin-left: 240px;
+    }
+
+    .apply-container-green img {
+        width: 360px;
+        height: 240px;
+        margin-left: 30px;
+    }
+
+    .requieriments-section {
+        height: 360px;
+    }
+
+    .requieriments-container h2 {
+        padding-top: 60px;
+        font-size: 36px;
+    }
+
+    .container-requieriment-list {
+        height: 200px;
+    }
+
+    .requieriment-list p {
+        font-size: 20px;
+        margin-left: 180px;
+    }
+
+    .requieriment-list li {
+        margin-left: 180px;
+        font-size: 18px;
+    }
+
+    .section-comments {
+        padding: 40px;
+    }
+}
