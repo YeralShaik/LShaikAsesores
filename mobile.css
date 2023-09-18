@@ -110,12 +110,12 @@ main .main-subtitle {
 /* Service Section */
 .service-container {
     width: 100%;
-    margin: 24px;
+    margin: 20px;
 
 }
 
 .service-container h2 {
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     color: var(--primary);
 }
@@ -234,7 +234,7 @@ main .main-subtitle {
     width: 100%;
     height: 90px;
 
-    background: linear-gradient(100deg,  #074D77 69.49%, rgba(7, 77, 119, 0.00) 90.67%);
+    background: #074D77;
     justify-content: center;
     padding-top: 16px;
     font-size: 32px;
@@ -253,7 +253,7 @@ main .main-subtitle {
     
 }
 .apply-container {
-background: linear-gradient(100deg, #074D77 48.49%, rgba(7, 77, 119, 0.00) 90.67%);
+background: linear-gradient(100deg, #074D77 68.49%, rgba(7, 77, 119, 0.00) 90.67%);
 
 }
 
