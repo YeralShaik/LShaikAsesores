@@ -55,7 +55,7 @@
     height: 650px;
     display: flex;
     flex-direction: column;   
-    background: linear-gradient(267deg, #074D77 48.31%, rgba(7, 77, 119, 0.00) 92%);
+    background: linear-gradient(50deg, #074D77 68.31%, rgba(7, 77, 119, 0.00) 92%);
     align-items: center;
 }
 
