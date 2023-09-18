@@ -90,13 +90,14 @@ main .main-subtitle {
 }
 
 #quote-button  {
-    width: 130px;
+    width: 120px;
     height: 40px;
     background-color: var(--secondary);
     color: var(--primary);
     border-radius: 20px;
     border-style: none;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: lighter;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
@@ -395,24 +396,19 @@ button[type="submit"] {
     background-color: var(--secondary);
     color: var(--primary);
     border: none;
-
-
     border-radius: 4px;
     font-size: 10px;
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
-    background-color: var(--primary);
-    color: var(--white);
-}
+
 
 
 
 /* Estilos para el footer */
 footer {
     width: auto;
-    height: 300px;
+    height: 120px;
     background-color: var(--primary);
     color: var(--white);
     padding: 40px 0; 
