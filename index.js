@@ -2,11 +2,10 @@
 const quotebutton = document.getElementById ('quote-button');
 const instagram = document.getElementById ('instagram');
 const mail= document.getElementById ('mail');
-const whatsappURL = document.getElementById ('Whatsapp');
+
 
 // controlador de eventos al botón para el evento de clic
-quotebutton.addEventListener,
-whatsappURL.addEventListener('click', function() {
+quotebutton.addEventListener('click', function() {
     // Número de teléfono de WhatsApp
     const phoneNumber = '+50760483127'; 
     // Mensaje predefinido
@@ -14,6 +13,8 @@ whatsappURL.addEventListener('click', function() {
 
     // URL de WhatsApp
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
+    // Abre una nueva ventana o pestaña del navegador con la URL de WhatsApp
     window.open(whatsappURL, '_blank');
 });
 
