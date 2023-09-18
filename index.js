@@ -2,11 +2,10 @@
 const quotebutton = document.getElementById ('quote-button');
 const instagram = document.getElementById ('instagram');
 const mail= document.getElementById ('mail');
-const whatsappURL = document.getElementById ('Whatsapp');
+const whatsapp = document.getElementById ('Whatsapp');
 
 // controlador de eventos al botón para el evento de clic
-quotebutton.addEventListener,
-whatsappURL.addEventListener('click', function() {
+quotebutton.addEventListener('click', function() {
     // Número de teléfono de WhatsApp
     const phoneNumber = '+50760483127'; 
     // Mensaje predefinido
