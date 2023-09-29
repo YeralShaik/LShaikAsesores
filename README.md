@@ -1,5 +1,5 @@
 <h1>Landing Page de Shaik Asesores</h1>
-
+![Logo Shaik Asesores](./assets/CB34008C-3999-4417-805D-9996A21E4571 2.png)
 
 <h2> Descripción del Proyecto </h2>
 Este proyecto consiste en la creación de una Landing Page para Shaik Asesores, una empresa panameña dedicada a brindar asesoramiento en préstamos personales. La página web está diseñada para ofrecer información sobre los servicios de la empresa y facilitar a los visitantes la solicitud de cotizaciones y más detalles sobre los préstamos personales que ofrecen.
