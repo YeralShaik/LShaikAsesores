@@ -1,0 +1,54 @@
+
+/* Service Section */
+.service-container {
+    width: 100%;
+    margin: 48px;
+    padding: 24px;
+}
+
+.service-container h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #074D77;
+}
+
+.service-container-services {
+    width: 90%;
+    margin: 30px;
+    margin-bottom: 24px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espacio de 56px entre elementos */
+}
+
+.service,
+.service-green {
+
+    width: 280px;
+    height: auto;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+}
+
+.service {
+    background: var(--Primary, #074D77);
+}
+
+.service-green {
+    background: var(--terciary);
+}
+
+.service-p {
+    font-size: 24px;
+}
