@@ -61,7 +61,7 @@
     border-radius: 8px;
    
   }
-  .navBar-container ul li a.active:active {
+  .navBar-container ul li a:active {
     background: #003656;
     color: #fff; 
     padding: 8px;

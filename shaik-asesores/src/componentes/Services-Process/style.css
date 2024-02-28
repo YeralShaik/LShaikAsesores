@@ -1,0 +1,41 @@
+/* Service Section */
+.apply-container {
+    width: auto;
+    height: 300px;
+    padding: 70px;
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-card {
+    background: #003656;
+    color: white;
+    width: 70%;
+    height: 250px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(7, 7, 7, 0.63);
+    opacity: 1; /* Inicialmente establecida a 0 para la animación */
+    animation: slideInLeft 1s ease-in-out;
+}
+
+ .apply-Title {
+    color:white;
+}
+.apply-card p {
+    font-size: 18px;
+}
+/* Define un conjunto de reglas de animación usando @keyframes */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(1);
+    }
+}

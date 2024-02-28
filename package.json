@@ -1,7 +1,7 @@
 {
   "name": "shaikp",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Landing Page de Shaik Asesores</h1>",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

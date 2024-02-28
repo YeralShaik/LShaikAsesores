@@ -1,12 +1,7 @@
 
 /* Service Section */
-.service-container {
-    width: 100%;
-    margin: 48px;
-    padding: 24px;
-}
 
-.service-container h2 {
+ h2 {
     font-size: 40px;
     text-align: center;
     color: #074D77;
@@ -21,7 +16,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* Espacio de 56px entre elementos */
+    gap: 40px;
+ /* Espacio de 56px entre elementos */
 }
 
 .service,
@@ -42,11 +38,12 @@
 }
 
 .service {
-    background: var(--Primary, #074D77);
+    background: #003656; 
+    color: aliceblue;
 }
 
 .service-green {
-    background: var(--terciary);
+    background: green;
 }
 
 .service-p {

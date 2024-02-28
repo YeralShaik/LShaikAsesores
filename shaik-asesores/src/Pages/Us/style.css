@@ -1,0 +1,102 @@
+
+.about-container {
+    width: auto;
+    padding-bottom: 56px;
+    padding-top: 48px;
+    background: #003656;
+    color: #FFF;
+    padding: 70px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+h1{
+    color: #003656;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 16px;
+    margin-top: 48px;
+
+}
+h3 {
+    color: #003656;
+    font-size: 28px;
+    text-align: center;
+    margin: 16px;
+    font-style: italic;
+    margin-bottom: 48px;
+}
+
+.about-title {
+    font-size: 24px;
+   margin-bottom: 50px;
+   
+}
+
+.about-container span {
+    margin-top: 40px;
+    gap: 40px;
+    
+    top: 20px;
+ }
+img {
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.about-container-card img {
+    width: 70%;
+    height: 90%;
+
+}
+
+.card-Somos,
+.card-Mision {
+    display: flex;
+
+    width: 780px;
+    height: 180px;
+    padding: 24px;
+    flex-direction: column;
+    border-radius:  0 20px 20px 0;
+    text-align: left;
+    padding-left: 70px;
+    color: #FFF;
+    background: #003656;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+    
+    }
+.card-Vision {
+    display: flex;
+    padding: 24px;
+    margin: 48px;
+    width: 750px;
+    height: 220px;
+    margin-left: 480px;
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    background: #FFF;
+    color: #003656;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+}
+    .card-Somos p,
+    .card-Mision p,
+    .card-Vision p {
+        font-size: 28px;
+        font-weight: bold;
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    .card span {
+        margin-top: 12px;
+        font-size: 16px;
+        color: var(--primary);
+
+    }
