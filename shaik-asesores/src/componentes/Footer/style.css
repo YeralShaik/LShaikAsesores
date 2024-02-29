@@ -5,10 +5,11 @@
 .container-footer {
     background: #003656;
     color: aliceblue;
-    width: auto ;
+    width: auto;
     height: 130px;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     padding: 24px 24px 24px 24px;
 }

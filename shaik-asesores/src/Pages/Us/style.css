@@ -1,16 +1,3 @@
-
-.about-container {
-    width: auto;
-    padding-bottom: 56px;
-    padding-top: 48px;
-    background: #003656;
-    color: #FFF;
-    padding: 70px;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns:  1fr 1fr;
-}
-
 h1{
     color: #003656;
     font-size: 40px;
@@ -28,75 +15,106 @@ h3 {
     font-style: italic;
     margin-bottom: 48px;
 }
+.about-container,
+ .vision-container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003656;
+    color: #fff;
+    padding: 80px;
+    font-size: 20px;
+  }
+  .mision-container {
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #003656;
+    padding: 80px;
+    font-size: 20px;
+  }
 
-.about-title {
+  .about-title {
     font-size: 24px;
-   margin-bottom: 50px;
+    margin-bottom: 36px;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .about-container span {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+ 
+
+  .about-img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    object-fit: contain;
+ 
+  }
+
+  .mision-container span {
+    font-size: 18px;
+    text-align: left;
+  }
+  .mision-left-column {
+    text-align: center;
+   align-items: center;
+    flex: 1;
+    padding: 20px;
+
+  }
+ .mision-right-column {
+    padding-right: 70px;
+     flex: 1;
+    padding: 20px;
+ }
+
+  .shoot-Icon {
+    width: 55%;
+    height: auto;
+    align-items: center;
+}
+
+.vision-container{
+    height: 350px;
+ }
+
+.vision-left-column {
+    flex: 1;
+    padding: 24px;
+    
+}
+
+.vision-right-column {
+    flex: 1;
+    padding: 24px;
+    padding-top: 40px
+}
+
+
+.rocket-Icon{
+    width: 40%;
+    height: auto;
+    align-items: center;
    
 }
 
-.about-container span {
-    margin-top: 40px;
-    gap: 40px;
-    
-    top: 20px;
- }
-img {
-    width: 60%;
-    border-radius: 10px;
-    margin-left: 80px;
-}
-.about-container-card img {
-    width: 70%;
-    height: 90%;
-
-}
-
-.card-Somos,
-.card-Mision {
-    display: flex;
-
-    width: 780px;
-    height: 180px;
-    padding: 24px;
-    flex-direction: column;
-    border-radius:  0 20px 20px 0;
-    text-align: left;
-    padding-left: 70px;
-    color: #FFF;
-    background: #003656;
-    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
-    
-    }
-.card-Vision {
-    display: flex;
-    padding: 24px;
-    margin: 48px;
-    width: 750px;
-    height: 220px;
-    margin-left: 480px;
-    padding-left: 70px;
-    padding-right: 70px;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    background: #FFF;
-    color: #003656;
-    border-radius: 20px 0 0 20px;
-    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
-}
-    .card-Somos p,
-    .card-Mision p,
-    .card-Vision p {
-        font-size: 28px;
-        font-weight: bold;
-        color: var(--primary);
-        font-weight: bold;
-    }
-
-    .card span {
-        margin-top: 12px;
-        font-size: 16px;
-        color: var(--primary);
-
-    }
+ 

@@ -1,15 +1,18 @@
 import React from "react";
 import './style.css'
 
-const Servicios = () => {
+const Aplican = () => {
+
+  
     return (
         <>
                     
-            <h2>OFRECEMOS PRESTAMOS PERSONALES</h2>
+            <h2>¿QUIENES APLICAN?</h2>
+            <h3>"Te Asesoramos con tus Préstamos Personales y te ayudamos a mejorar tu APC"</h3>
             <div className="service-container-services">
-            <div  className="service">
+            <button  className="service">
                 <p className="service-p">EMPRESA PRIVADA</p>
-            </div>
+            </button>
             <div  className="service-green">
                 <p className="service-p">GOBIERNO</p>
             </div>
@@ -31,4 +34,4 @@ const Servicios = () => {
     )
 }
 
-export { Servicios}
+export { Aplican}
