@@ -38,13 +38,11 @@
 }
 
 .service {
-    background: #003656; 
+    background: green;
     color: aliceblue;
 }
 
-.service-green {
-    background: green;
-}
+
 
 .service-p {
     font-size: 24px;

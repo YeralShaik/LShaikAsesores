@@ -1,4 +1,4 @@
-/* Service Section */
+/* Estilos para la sección de servicios */
 .apply-container {
     width: auto;
     height: 300px;
@@ -11,6 +11,7 @@
     justify-content: center;
 }
 
+/* Estilos para las tarjetas de servicios */
 .apply-card {
     background: #003656;
     color: white;
@@ -23,12 +24,16 @@
     animation: slideInLeft 1s ease-in-out;
 }
 
- .apply-Title {
-    color:white;
+/* Estilos para el título de las tarjetas de servicios */
+.apply-Title {
+    color: white;
 }
+
+/* Estilos para el texto de las tarjetas de servicios */
 .apply-card p {
     font-size: 18px;
 }
+
 /* Define un conjunto de reglas de animación usando @keyframes */
 @keyframes slideInLeft {
     from {

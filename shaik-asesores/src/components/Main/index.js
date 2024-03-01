@@ -8,6 +8,11 @@ import { IoIosArrowForward } from "react-icons/io";
 import './modal.css';
 import './style.css';
 
+
+/**
+ * Componente principal que representa la sección principal de la aplicación.
+ * Incluye una imagen principal, un formulario modal y una sección secundaria.
+ * */
 const Main = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectAnswer, setSelectAnswer] = useState(Array(6).fill(null)); // Initialize with the correct length
@@ -19,13 +24,18 @@ const Main = () => {
   const closeModal = () => {
     setModalIsOpen(false);
   };
-
+/**
+   * Maneja la selección de respuestas en el formulario modal.
+   * @param {number} questionIndex - Índice de la pregunta.
+   * @param {number} optionIndex - Índice de la opción seleccionada.
+   */
   const handleSelectAnswer = (questionIndex, optionIndex) => {
     const newSelectAnswer = [...selectAnswer];
     newSelectAnswer[questionIndex] = optionIndex;
     setSelectAnswer(newSelectAnswer);
   };
 
+   // Definición de las preguntas del formulario modal.
   const questions = [
     {
       question: "¿Donde Laboras?",
@@ -81,6 +91,8 @@ const Main = () => {
         <IoIosArrowForward className="arrow-icon-left" />
       </div>
 
+
+      {/* Modal */}
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

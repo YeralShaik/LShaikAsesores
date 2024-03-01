@@ -1,25 +1,33 @@
 import React from "react";
-import './style.css'
+import contactImg from '../../asset/atencion.png';
+import './style.css';
 
+/**
+ * Componente que representa la sección de contacto.
+ * Incluye información sobre cómo contactar y un botón para abrir un formulario.
+ * 
+  */
 const Contact = () => {
-    return(
-        <>
-        
-        <div className='Contact-Form'>
-        <h1>Contacto</h1>
+  /**
+   * Abre el formulario de contacto en una nueva ventana.
+   */
+  const openContactForm = () => {
+    const formUrl = 'https://forms.gle/Ga1xBTuiYPD8gj537';
+    window.open(formUrl, '_blank');
+  }
 
-         <form>
-         <h4>SOLICITA UNA COTIZACION</h4>
-            <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
-            <input type="text" placeholder="Nombre" />
-            <input type="text" placeholder="Teléfono" />
-            <input type="email" placeholder="Email"/>
-            <input  className="comment" type="text" placeholder="Explicanos tu caso"/>
-          </form>
-        </div>
-      </>
-      
-    )
+  return (
+    <>
+      <div className='Contact-Form'>
+        <h1>Contacto</h1>
+        <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
+        <img src={contactImg} alt="Ilustración de atención" /> 
+        <button className="button-FormContact" onClick={openContactForm}>
+          SOLICITA TU COTIZACIÓN
+        </button>
+      </div>
+    </>
+  );
 }
 
-export { Contact }
+export { Contact };
