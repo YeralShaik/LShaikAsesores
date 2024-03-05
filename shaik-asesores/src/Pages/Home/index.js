@@ -3,6 +3,7 @@ import { Main } from "../../components/Main";
 import { ApplyProcess } from "../../components/Services-Process";
 import { Services } from '../../components/Services'
 import { Contact } from "../Contact";
+import { Banner } from "../../components/Banner-Home";
 
 /**
  * Página principal que renderiza los componentes principales de la aplicación.
@@ -17,6 +18,9 @@ const Home = () => {
       {/* Proceso de servicios */}
       <ApplyProcess />
 
+      {/* Banner - servicio gratuito */}
+      <Banner/>
+      
       {/* Sección de aplicantes */}
       <Services />
 

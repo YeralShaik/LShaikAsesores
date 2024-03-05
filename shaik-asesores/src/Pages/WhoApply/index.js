@@ -13,50 +13,67 @@ const QuienesAplican = () => {
     {
       typeCompany: 'Empresa Privada',
       content: 'Aplican desde 4 meses permanente.',
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: privadaImg
+ 
     },
     {
       typeCompany: 'Gobierno',
       content: 'Aplicas desde recién nombrado, ya seas permanente o eventual!.',
-      img: gobiernoImg
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
+      img: gobiernoImg,
+
     },
     {
       typeCompany: 'Fuerza Publica',
       content: 'Aplicas desde recién nombrado!. Consolidamos tus cuentas y cancelamos embargos.',
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: fuerzaPublicaImg
     },
     {
       typeCompany: 'Sector Salud y Educadores',
       content: 'Recibes hasta $80,000.00 y hasta 25 años de plazo. Cancelamos embargos y consolidamos tus cuentas',
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: saludImg
     },
      {
       typeCompany: 'Jubilados y Pensionados',
       content: 'Tenemos opciones sin exámen médico y sin cancelar cuentas atrasadas!. Con plazos hasta los 85 años.',
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: jubilados 
     },
     {
       typeCompany: 'ACP',
       content: 'Aplican desde 4 meses permanente.',
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: privadaImg
     },
     {
       typeCompany: 'Independientes ',
       content: 'Aplican desde 4 meses permanente.',
+      requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: independientesImg
     },
     
     // ... otras categorías de aplicantes
   ];
+   
+ 
 
   return (
     <div className='service-Container'>
       {serviceCardData.map((data, index) => (
         <ServiceCard key={index} {...data} />
       ))}
+
+
     </div>
+    
+   
   );
 };
+
+
 
 export { QuienesAplican };
 
