@@ -16,9 +16,10 @@ const Services = () => {
 
     return (
 
-        <>
-           <h1>Ofrecemos</h1>
-           <div className=" service-container-services">
+        <div className="service-Section">
+           <h1> ¡Nosotros te Ayudamos!</h1>
+           <p className="services-SubTitle">Te ofrecemos un servicio 100% personalizado, te asesoremos para que logres tus sueños.</p>
+           <div className=" service-container">
             {servicesData.map((data, index) => (
                 <div className="service" key={index}>
                     <p>{data.company}</p>
@@ -27,7 +28,7 @@ const Services = () => {
               <WhatsApp/>
         </div>
         
-        </>
+        </div>
         
     );
 }

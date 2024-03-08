@@ -1,15 +1,20 @@
 
 /* Service Section */
+.service-Section{
+    height: 620px;
 
- h2 {
+    padding: 60px;
+
+}
+ .service-Section h1 {
     font-size: 40px;
     text-align: center;
-    color: #074D77;
+    color: #003656;
+
 }
 
-.service-container-services {
+.service-container {
     width: 90%;
-    margin: 30px;
     margin-bottom: 24px;
     padding: 10px;
     display: flex;
@@ -38,12 +43,17 @@
 }
 
 .service {
-    background: #074D77;
-    color: aliceblue;
+    background: #003656;;
+    color: #ffffff;
 }
 
 
 
 .service-p {
-    font-size: 24px;
+    font-size: 16px;
+}
+.services-SubTitle {
+    text-align: center;
+    font-size: 18px;
+    color: #003656;
 }

@@ -11,5 +11,8 @@
     "url": "yeralshaik"
   },
   "author": "YeraldinShaik",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "swiper": "^11.0.7"
+  }
 }

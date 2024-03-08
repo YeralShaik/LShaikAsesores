@@ -61,6 +61,9 @@ const QuienesAplican = () => {
  
 
   return (
+
+    <>
+    <h1>Quienes Aplican</h1>
     <div className='service-Container'>
       {serviceCardData.map((data, index) => (
         <ServiceCard key={index} {...data} />
@@ -68,6 +71,8 @@ const QuienesAplican = () => {
 
 
     </div>
+    </>
+    
     
    
   );

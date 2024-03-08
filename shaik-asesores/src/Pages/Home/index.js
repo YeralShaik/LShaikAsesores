@@ -5,6 +5,9 @@ import { Services } from '../../components/Services'
 import { Contact } from "../Contact";
 import { Banner } from "../../components/Banner-Home";
 
+
+
+
 /**
  * Página principal que renderiza los componentes principales de la aplicación.
  * Incluye la sección principal, el proceso de servicios, la sección de aplicantes y la sección de contacto.
@@ -14,6 +17,7 @@ const Home = () => {
     <>
       {/* Sección principal */}
       <Main />
+      
 
       {/* Proceso de servicios */}
       <ApplyProcess />
