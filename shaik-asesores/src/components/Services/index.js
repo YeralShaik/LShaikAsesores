@@ -1,5 +1,6 @@
 import React from "react";
-import { WhatsApp } from "../WhatsappButton";
+import vector from '../../asset/vector.png'
+
 import './style.css'
 
 
@@ -25,9 +26,8 @@ const Services = () => {
                     <p>{data.company}</p>
             </div>
             ))}
-              <WhatsApp/>
+     
         </div>
-        
         </div>
         
     );

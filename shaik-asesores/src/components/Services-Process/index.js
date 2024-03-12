@@ -3,6 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import { BsPencilSquare } from "react-icons/bs";
 import { FaSackDollar } from "react-icons/fa6";
 import './style.css'
+import imgVector from '../../asset/Line 6.png'
 
 
 
@@ -40,8 +41,11 @@ const ApplyProcess = () => {
               Una vez aprobada tu propuesta, recibirás tu dinero.
               ¡Goza de los beneficios, realiza esa meta soñada y sigamos creciendo juntos!
             </p>
+        
           </div> 
+    
         </div>
+        
       );
     }
     

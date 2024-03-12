@@ -1,16 +1,17 @@
 
 /* Service Section */
 .service-Section{
-    height: 620px;
-
+    height: 480px;
     padding: 60px;
-
+    background-image: url(../../asset/vector-verde.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
 }
  .service-Section h1 {
     font-size: 40px;
     text-align: center;
     color: #003656;
-
+   
 }
 
 .service-container {
@@ -22,7 +23,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
- /* Espacio de 56px entre elementos */
+   
 }
 
 .service,
@@ -57,3 +58,4 @@
     font-size: 18px;
     color: #003656;
 }
+

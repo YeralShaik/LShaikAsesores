@@ -8,7 +8,7 @@ const ServiceCard = ({ typeCompany, content, img, requisitos }) => {
 
         <div className="card-Container">
         <img src={img} alt="Icono de empresa privada" />
-        <h2>{typeCompany}</h2>
+        <h2 className="card-container-Title">{typeCompany}</h2>
         <p>{content}</p>
         <p className="requisitos"> Requisitos: <br></br> {requisitos}</p>
         </div>

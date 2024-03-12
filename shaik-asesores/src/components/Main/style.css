@@ -3,14 +3,14 @@
 .main-secction {
     width: 100%;
     height: auto;
-    margin-top: 40px;
  
 }
 
 .main-container{
     width: 100%;
-    height: 480px;
+    height: 420px;
     display: flex;
+    padding: 70px;
     flex-direction: row;   
     background: #003656;
     align-items: center;
@@ -18,17 +18,19 @@
 
  .main-container img {
     max-width: 100%;
-    height: 510px;
-    margin-left: 32px;
+    height: 520px;
     display: block;
     opacity: 1; 
     animation: slideInLeft 1s ease-in-out;
+    border-radius: 100%;
+    filter: drop-shadow(5px 5px 10px rgba(244, 244, 244, 0.831));
+    
 }
 
 .main-container-text{
     text-align: center;
-       width: 50%;
-       opacity: 1; 
+    width: 60%;
+    opacity: 1; 
     animation: slideInLeft 1s ease-in-out;
 }
 
@@ -42,14 +44,14 @@
 
  .main-subtitle-title {
     color: #FED007;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 16px;
     text-shadow: 0  2px 2px  rgb(46, 37, 0);
 }
 
  .main-subtitle {
     color: #F9FAFB;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 16px;
     margin-bottom: 24px;
     text-shadow: 0  3px 4px  rgb(46, 37, 0);
@@ -222,3 +224,7 @@
         transform: translateX(1);
     }
 }
+
+
+
+

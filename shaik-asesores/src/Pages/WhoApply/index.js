@@ -1,12 +1,14 @@
 import React from 'react';
 import { ServiceCard } from '../../components/Services-Card';
-import privadaImg from '../../asset/mujer-dinero.png';
-import gobiernoImg from '../../asset/ejecutivo.png';
+import privadaImg from '../../asset/ejecutivo-dinero.png';
+import gobiernoImg from '../../asset/ejecutivos.png';
 import fuerzaPublicaImg from '../../asset/policia.png';
-import saludImg from '../../asset/profesiones.png';
+import saludImg from '../../asset/doctores.png';
 import jubilados from '../../asset/jubilados.png';
 import independientesImg from '../../asset/asesorando.png';
+import acpImg from '../../asset/acp.png'
 import '../../components/Services-Card/syle.css';
+
 
 const QuienesAplican = () => {
   const serviceCardData = [
@@ -46,7 +48,7 @@ const QuienesAplican = () => {
       typeCompany: 'ACP',
       content: 'Aplican desde 4 meses permanente.',
       requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
-      img: privadaImg
+      img: acpImg
     },
     {
       typeCompany: 'Independientes ',

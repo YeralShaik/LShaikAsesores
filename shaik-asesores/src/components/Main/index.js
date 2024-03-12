@@ -30,7 +30,10 @@ const Main = () => {
    
       <div className="main-container">
         <IoIosArrowBack className="arrow-icon-right active" />
-        <img src={mainImg} alt="dinero" />
+        
+         <img src={mainImg} alt="dinero" />
+        
+      
         <div className="main-container-text">
           <h1 className="main-title">¿NECESITAS DINERO?</h1>
           <h2 className="main-subtitle-title">¡No tienes capacidad o tienes mala apc!</h2>

@@ -1,37 +1,47 @@
 /* Estilos para el formulario de contacto */
 .Contact-Form {
     width: auto;
-    height: 700px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    color: white;
-    background: #003656;
+    color: #003656;
     padding: 24px;
 }
 
 /* Estilos para el título del formulario */
 .Contact-Form h1 {
-    font-size: 48px;
-    padding-bottom: 24px;
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 12px;
     text-align: center;
-    color: white;
+    color: #003656;
     text-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.25);
+
 }
 
-/* Estilos para subtítulos en el formulario */
-h4 {
-    font-size: 24px;
-    margin: 12px;
+.contact-Text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 70px 0 70px;
+      text-align: center;
+    align-items: center;
 }
 
+.contact-Text p {
+    margin: 0;
+    padding: 10px;
+}
 /* Estilos para el botón de contacto */
 .button-FormContact {
+    width: 200px;
     height: 64px;
-    font-size: 20px;
-    background: yellow;
-    color: #003656;
+    font-size: 16px;
+    background: #003656;
+    color: aliceblue;
+    margin-top: 30px;
+    border: none;
     cursor: pointer; /* Hace que el cursor cambie a una mano al pasar sobre el botón */
     transition: background 0.3s, color 0.3s; /* Agrega una transición suave al cambio de color */
 }
@@ -43,5 +53,7 @@ h4 {
 
 /* Estilos para la imagen en el formulario */
 .Contact-Form img {
-    height: 50%;
+    height: 120%;
+    margin-right: 80px;
+    
 }

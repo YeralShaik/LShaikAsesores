@@ -1,5 +1,5 @@
 import React from "react";
-import contactImg from '../../asset/atencion.png';
+import contactImg from '../../asset/Atenncion al cliente.png';
 import './style.css';
 
 /**
@@ -12,19 +12,23 @@ const Contact = () => {
    * Abre el formulario de contacto en una nueva ventana.
    */
   const openContactForm = () => {
-    const formUrl = 'https://forms.gle/Ga1xBTuiYPD8gj537';
+    const formUrl = 'https://forms.gle/KsEzRoRcMxdGRRoCA';
     window.open(formUrl, '_blank');
   }
 
   return (
     <>
       <div className='Contact-Form'>
-        <h1>Contacto</h1>
-        <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
+       <div className="contact-Text">
+          <h1>Contacto</h1>
+          <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
+          <button className="button-FormContact" onClick={openContactForm}>
+            Solicita tu Cotización
+          </button>
+      </div> 
+       
         <img src={contactImg} alt="Ilustración de atención" /> 
-        <button className="button-FormContact" onClick={openContactForm}>
-          SOLICITA TU COTIZACIÓN
-        </button>
+       
       </div>
     </>
   );

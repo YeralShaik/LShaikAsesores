@@ -1,5 +1,9 @@
 /* Bannner  */
+.verctor-Line {
+   width: 20%;
+   margin-left: 80%;
 
+}
 
 .banner-Container{
     background: green;
@@ -13,6 +17,7 @@
     text-align: center;
     font-weight: bold;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.363);
+
     animation: animacionAparicionIzquierda 1s ease-out;
 }
 @keyframes animacionAparicionIzquierda {

@@ -6,14 +6,16 @@ import './style.css';
 import { WhatsApp } from '../WhatsappButton';
 
 
+
+
 // Componente de barra de navegación con enlaces a diferentes secciones y un botón de contacto de WhatsApp.
 const NavBar = () => {
-
-  
+ 
+    
     return(
         <nav className="navBar">
             <div className="navBar-container" >
-            <img src={logoShaik} alt="Logo de Shaik Consultores" />
+            <img  src={logoShaik} alt="Logo de Shaik Consultores" />
             <ul className='navbar-list active'>
                 <li><NavLink to="/" className='active'>Home</NavLink></li>
                 <li><NavLink to="/nosotros" className='active'>Nosotros</NavLink></li>

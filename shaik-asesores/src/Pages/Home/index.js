@@ -13,6 +13,7 @@ import { Banner } from "../../components/Banner-Home";
  * Incluye la sección principal, el proceso de servicios, la sección de aplicantes y la sección de contacto.
  */
 const Home = () => {
+  
   return (
     <>
       {/* Sección principal */}
