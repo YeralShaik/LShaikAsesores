@@ -12,7 +12,9 @@
 
 
 }
-
+.ServiceProcess-Title {
+    color: #003656;
+}
 /* Estilos para las tarjetas de servicios */
 .apply-card {
     background: #003656;

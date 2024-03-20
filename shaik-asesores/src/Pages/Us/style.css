@@ -1,16 +1,23 @@
 /* Estilos para encabezados */
-
+.about-Section {
+  background: #003656;
+  color: #fff;
+  margin: 0;
+}
 h1 {
-  color: #003656;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  margin: 16px;
-  margin-top: 48px;
+  margin: 0;
+  padding-top: 70px;
+
+
+  
 }
 
 h3 {
-  color: #003656;
+  color: #fff;
   font-size: 28px;
   text-align: center;
   margin: 16px;
@@ -26,8 +33,8 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #003656;
-  color: #fff;
+  background: #fff;
+  color: #003656;
   padding: 80px;
   font-size: 20px;
 }
@@ -38,8 +45,8 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
-  color: #003656;
+  background: #003656;
+  color: #fff;
   padding: 80px;
   font-size: 20px;
 }
@@ -58,7 +65,7 @@ h3 {
 .right-column {
   flex: 1;
   text-align: center;
-  padding: 20px;
+  margin-left: 60px;
   align-items: center;
 }
 
@@ -67,6 +74,13 @@ h3 {
 .mision-container span {
   font-size: 16px;
   padding-top: 40px;
+
+
+}
+
+.mision-right-column {
+  width: 80%;
+  text-align: justify;
 }
 
 /* Estilos para imágenes */
@@ -78,9 +92,12 @@ h3 {
 }
 
 .shoot-Icon {
-  width: 55%;
+  width: 70%;
   height: auto;
   align-items: center;
+  margin-right: 40px;
+  gap: 40px;
+  filter: drop-shadow(5px 5px 5px rgba(244, 244, 244, 0.831));
 }
 
 /* Estilos adicionales para la sección de visión */
@@ -98,4 +115,5 @@ h3 {
   width: 40%;
   height: auto;
   align-items: center;
+  filter: drop-shadow(5px 5px 5px rgba(0, 45, 89, 0.831));
 }

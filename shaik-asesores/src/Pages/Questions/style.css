@@ -1,5 +1,9 @@
-h1 {
+.Question-Title {
     font-weight: bold;
+    color: #003656;
+}
+.question-Text {
+    color: #003656;
 }
 .questions-Container {
     width: auto;
@@ -37,14 +41,12 @@ h1 {
 
   
 }
-.arrowDown {
+.arrowDown,
+.arrowUp {
     padding-right: 20px;
     font-size: 24px;
     align-items: center;
     text-align: center;
-}
-.arrowUp {
-    display: none;
 }
 
 .questionImg {

@@ -32,7 +32,9 @@ function App() {
 
       {/* Pie de página */}
       <Footer />
+
     </Router>
+   
   );
 }
 

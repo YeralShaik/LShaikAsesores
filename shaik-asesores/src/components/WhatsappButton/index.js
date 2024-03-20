@@ -11,7 +11,7 @@ const WhatsApp = () => {
   }
 
  return(
-  <button onClick={sendWhatsapp} className="contact-button"> ¡Cotiza ya! </button>
+  <button onClick={sendWhatsapp} className="contact-button"> WhatsApp</button>
 
  )
 }

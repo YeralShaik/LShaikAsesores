@@ -7,7 +7,9 @@ import saludImg from '../../asset/doctores.png';
 import jubilados from '../../asset/jubilados.png';
 import independientesImg from '../../asset/asesorando.png';
 import acpImg from '../../asset/acp.png'
+import PymeImg from '../../asset/microempresarios.png';
 import '../../components/Services-Card/syle.css';
+import './style.css'
 
 
 const QuienesAplican = () => {
@@ -56,6 +58,12 @@ const QuienesAplican = () => {
       requisitos: 'Carta de Trabajo | Cédula | Ficha CSS | Comprobante de pago',
       img: independientesImg
     },
+    {
+      typeCompany: 'MicroEmpresarios ',
+      content: 'Aplican desde 4 meses permanente.',
+      requisitos: 'Ingreso mínimo de $ 600.00. Debe presentar estados de cuenta bancaria de los últimos 3 meses. | Cédula | Tener entre 25 y 54 años. | Aviso de operaciones con 2 años de vigencia.',
+      img: PymeImg
+    },
     
     // ... otras categorías de aplicantes
   ];
@@ -65,7 +73,8 @@ const QuienesAplican = () => {
   return (
 
     <>
-    <h1>Quienes Aplican</h1>
+    <h1 className='whoApply-Title'>Quienes Aplican</h1>
+    <p className='whoApply-Text' >¡Es el momento de cumplir tus sueños y nosotros te apoyamos! <br/> Evaluamos tu caso para brindarte préstamos que se ajustan a tus necesidades por Descuento Directo o por Pago Voluntario</p>
     <div className='service-Container'>
       {serviceCardData.map((data, index) => (
         <ServiceCard key={index} {...data} />

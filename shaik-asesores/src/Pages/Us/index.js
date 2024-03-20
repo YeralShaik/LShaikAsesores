@@ -2,6 +2,7 @@ import React from "react";
 import asesoreImg from '../../asset/happy-diverse-business-partners-closing-deal.jpg';
 import shootIcon from '../../asset/shoot.png';
 import rocketIcon from '../../asset/Rocket.png';
+import vectorImg from '../../asset/vector.png'
 import './style.css';
 
 /**
@@ -15,13 +16,17 @@ import './style.css';
  */
 const Nosotros = () => {
   return (
-    <>
+    
+    <section className="about-Section">
+      
       <h1>"QUIENES SOMOS"</h1>
       <h3>"SOMOS LA SOLUCIÓN A TUS PROBLEMAS"</h3>
 
       {/* Sección Quienes Somos */}
       <div className="about-container">
+        
         <div className="left-column">
+          
           <strong className="about-title">Quienes Somos</strong>
           <br />
           <span>
@@ -31,7 +36,9 @@ const Nosotros = () => {
             necesidades financieras, ¡estamos aquí para ayudarte a alcanzar tus
             objetivos!
           </span>
+          
         </div>
+        
         <div className="right-column">
           <img className="about-img" src={asesoreImg} alt="Equipo de asesores" />
         </div>
@@ -71,7 +78,8 @@ const Nosotros = () => {
           <img className="rocket-Icon" src={rocketIcon} alt="Ícono de cohete" />
         </div>
       </div>
-    </>
+      
+    </section>
   );
 }
 

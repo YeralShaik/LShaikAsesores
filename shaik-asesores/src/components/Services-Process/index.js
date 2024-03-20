@@ -16,7 +16,10 @@ import imgVector from '../../asset/Line 6.png'
 const ApplyProcess = () => {
 
     return (
+      <>
+      <h1 className="ServiceProcess-Title">Conoce Nuestro Proceso </h1>   
         <div className="apply-container">
+ 
           <div className="apply-card">
             <h2 className="apply-Title"> <FaCheckCircle /> Evaluación </h2>
             <p>
@@ -45,7 +48,7 @@ const ApplyProcess = () => {
           </div> 
     
         </div>
-        
+        </>
       );
     }
     
