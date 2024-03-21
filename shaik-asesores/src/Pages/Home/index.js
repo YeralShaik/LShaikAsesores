@@ -1,6 +1,6 @@
 import React from "react";
 import { Main } from "../../components/Main";
-import { ApplyProcess } from "../../components/Services-Process";
+import { ApplyProcess } from "../../components/Process";
 import { Services } from '../../components/Services'
 import { Contact } from "../Contact";
 import { Banner } from "../../components/Banner-Home";

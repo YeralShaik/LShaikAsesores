@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServiceCard } from '../../components/Services-Card';
+import { ServiceCard } from '../../components/WhoApply-Card';
 import privadaImg from '../../asset/ejecutivo-dinero-min.png';
 import gobiernoImg from '../../asset/ejecutivos-min.png';
 import fuerzaPublicaImg from '../../asset/policia-min.png';
@@ -8,7 +8,7 @@ import jubilados from '../../asset//jubilados-min.png';
 import independientesImg from '../../asset/asesorando-min.png';
 import acpImg from '../../asset/acp-min.png'
 import PymeImg from '../../asset/microempresarios.png';
-import '../../components/Services-Card/syle.css';
+import '../../components/WhoApply-Card/syle.css';
 import './style.css'
 
 
