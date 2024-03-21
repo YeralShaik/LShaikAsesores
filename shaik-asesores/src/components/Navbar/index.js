@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
-import logoShaik from '../../asset/logoShaik.png';
+import logoShaik from '../../asset/logoShaik-min.png';
 import './style.css';
 import { WhatsApp } from '../WhatsappButton';
 

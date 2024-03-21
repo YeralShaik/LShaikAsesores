@@ -1,8 +1,8 @@
 import React from "react";
-import asesoreImg from '../../asset/happy-diverse-business-partners-closing-deal.jpg';
+import asesoreImg from '../../asset/happy-diverse-business-partners-closing-deal-min.jpg';
 import shootIcon from '../../asset/shoot.png';
 import rocketIcon from '../../asset/Rocket.png';
-import vectorImg from '../../asset/vector.png'
+
 import './style.css';
 
 /**

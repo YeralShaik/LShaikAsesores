@@ -1,12 +1,12 @@
 import React from 'react';
 import { ServiceCard } from '../../components/Services-Card';
-import privadaImg from '../../asset/ejecutivo-dinero.png';
-import gobiernoImg from '../../asset/ejecutivos.png';
-import fuerzaPublicaImg from '../../asset/policia.png';
-import saludImg from '../../asset/doctores.png';
-import jubilados from '../../asset/jubilados.png';
-import independientesImg from '../../asset/asesorando.png';
-import acpImg from '../../asset/acp.png'
+import privadaImg from '../../asset/ejecutivo-dinero-min.png';
+import gobiernoImg from '../../asset/ejecutivos-min.png';
+import fuerzaPublicaImg from '../../asset/policia-min.png';
+import saludImg from '../../asset/enfermeros-min.png';
+import jubilados from '../../asset//jubilados-min.png';
+import independientesImg from '../../asset/asesorando-min.png';
+import acpImg from '../../asset/acp-min.png'
 import PymeImg from '../../asset/microempresarios.png';
 import '../../components/Services-Card/syle.css';
 import './style.css'

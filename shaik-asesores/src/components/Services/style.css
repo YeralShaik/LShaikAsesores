@@ -59,3 +59,21 @@
     color: #003656;
 }
 
+/* Medidas para pantallas pequeñas */
+@media screen and (max-width: 767px),(min-width: 768px) and (max-width: 991px){
+    
+/* Service Section */
+.service-Section{
+    height: auto;
+    padding: 0 40px 70px;
+       background-image: url(../../asset/vector-verde.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+.services-SubTitle {
+    text-align: center;
+   padding: 0 80px ;
+    font-size: 18px;
+    color: #003656;
+}
+}

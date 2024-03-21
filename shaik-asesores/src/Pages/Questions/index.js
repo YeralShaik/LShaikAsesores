@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { BsCheckCircleFill } from "react-icons/bs";
-import questionImg from '../../asset/mujer-dinero.png'
+import questionImg from '../../asset/mujer-dinero-min.png'
 import './style.css'
 
 const Questions = () => {
@@ -33,7 +33,7 @@ const Questions = () => {
     };
 
     return(
-        <>
+        <section className="Question-Section">
           <h1 className="Question-Title">Preguntas Frecuentes</h1>
           <p className="question-text">   </p>
           <div className="questions-Container">
@@ -55,9 +55,10 @@ const Questions = () => {
                       }
                   </div>
               ))}
-              <img src={questionImg} alt="Icono de empresa privada" />
+            
           </div>
-        </>
+          <img src={questionImg} alt="Icono de empresa privada" />
+        </section>
     );
 }
 

@@ -1,5 +1,7 @@
-/* Media query para pantallas más grandes */
-@media screen and (min-width: 768px) {
+  
+  @media only screen and (min-width: 1024px) {
+    /* Estilos específicos para desktops de gran tamaño */
+
 
 /*main */
 .main-secction {
@@ -20,6 +22,7 @@
 
  .main-container img {
     max-width: 100%;
+
     height: 520px;
     display: block;
     opacity: 1; 
@@ -31,7 +34,8 @@
 
 .main-container-text{
     text-align: center;
-    width: 60%;
+    width: 50%;
+
     opacity: 1; 
     animation: slideInLeft 1s ease-in-out;
 }
@@ -98,231 +102,6 @@
 
 
 
-/*main */
-.main-secondContainer {
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-    justify-content: center;
-    background: #003656;
-    display: flex;
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-
-}
-
-
-.main-secondContainer .main-container{
-    width: 100%;
-    height: 480px;
-    align-items: center;
-    text-align: center;
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-
-}
-
-
-.main-container-text02{
-        justify-content: center;
-        align-items: center;
-       width: 800px;
-       height: 480px;
-       background: #F9FAFB;
-       padding: 24px;
-       text-align: center;
-       border-radius:  0 0 0 16px;
-       opacity: 1; /* Inicialmente establecida a 0 para la animación */
-       animation: slideInLeft 1s ease-in-out;
-}
-
-.main-secondContainer .main-title {
-    color: #003656;
-    font-size: 32px;
-    margin-top: 24px;
-    padding-top: 60px;
-    text-shadow: 0  2px 2px  rgba(0, 6, 34, 0.801);
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-  
- 
-}
-
-.main-secondContainer .main-subtitle-title {
-    color: #003656;
-    font-size: 40px;
-    margin-top: 16px;
-    text-shadow: 0  2px 2px  rgba(255, 255, 255, 0.068);
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-}
-
-.main-secondContainer .main-subtitle {
-    color: #003656;
-    font-size: 40px;
-    margin-top: 16px;
-    margin-bottom: 24px;
-    text-shadow: 0  2px 2px  rgba(0, 6, 34, 0.801);
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-}
-
-
-#quote-button  {
-    width: 180px;
-    height: 48px;
-    background:#FED007;
-    color: var(--primary);
-    border-radius: 20px;
-    border-style: none;
-    font-size: 16px;
-    box-shadow: 0px 4px 4px 0px rgba(146, 146, 146, 0.473);
-
-}
-#quote-button:hover {
-    background:#d7f0ff;
-    color: #003656;
-    box-shadow: 0px 4px 4px 0px rgba(117, 117, 117, 0.705);
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-
-}
-
-
-.arrow-icon-right,
-.arrow-icon-left {
-    color: #d7f0ff;
-    width: auto;
-    height: 28px;
-    padding: 20px;
-}
-
-.arrow-icon-left {
-    padding-left: 80px;
-    color: #cedbe2;
-    align-items: center;
-}
-
-
-.main-secondContainer .clientImg {
-    margin: 50px;
-    border-radius: 16px;
-    width: 40%;
-    border-radius: 20px;
-    opacity: 1; /* Inicialmente establecida a 0 para la animación */
-    animation: slideInLeft 1s ease-in-out;
-}
-
-
-
-
-/* Define un conjunto de reglas de animación usando @keyframes */
-@keyframes slideInLeft {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(1);
-    }
-}
-
-
-}
-/* Media query para pantallas más pequeñas */
-@media screen and (max-width: 767px) {
-   /*main */
-.main-secction {
-    width: 100%;
-    height: auto;
- 
-}
-
-.main-container{
-    width: auto;
-    height: 520px;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;   
-    background: #003656;
-    align-items: center;
-}
-
- .main-container img {
-    max-width: 50%;
-    height: auto;
-
-    
-}
-
-.main-container-text{
-    text-align: center;
-
-    margin: 0;
-
-}
-
- .main-title {
-    font-size: 32px;
-    padding: 0;
-
- 
-}
-
- .main-subtitle-title {
-    color: #FED007;
-    font-size: 24px;
-    margin-top: 16px;
-    text-shadow: 0  2px 2px  rgb(46, 37, 0);
-}
-
- .main-subtitle {
-    color: #F9FAFB;
-    font-size: 24px;
-    margin-top: 16px;
-    margin-bottom: 24px;
-    text-shadow: 0  3px 4px  rgb(46, 37, 0);
-}
-
-
-.apply-Button {
-    width: 250px;
-    height: 56px;
-    background:#FED007;
-    color: var(--primary);
-    border-radius: 20px;
-    border-style: none;
-    font-size: 20px;
-    text-align: center;
-    box-shadow: 0px 4px 4px 0px rgba(146, 146, 146, 0.473);
-    cursor: pointer;
-
-}
-.apply-Button:hover {
-    background:#57910F;  
-    color: white;
-    box-shadow: 0px 4px 4px 0px rgba(117, 117, 117, 0.705);
-    
-
-}
-
-.arrow-icon-right,
-.arrow-icon-left {
-    color: #d7f0ff;
-    width: auto;
-    height: 28px;
-    padding: 20px;
-}
-
-.arrow-icon-left {
-    padding-left: 24px;
-}
-.arrow-icon-right {
-    display: none;
-}
-
-
-
 
 #quote-button  {
     width: 180px;
@@ -361,8 +140,6 @@
 
 
 
-
-
 /* Define un conjunto de reglas de animación usando @keyframes */
 @keyframes slideInLeft {
     from {
@@ -373,5 +150,4 @@
         transform: translateX(1);
     }
 }
-
 }

@@ -1,3 +1,9 @@
+.Question-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .Question-Title {
     font-weight: bold;
     color: #003656;
@@ -9,8 +15,9 @@
     width: auto;
     padding: 20px 100px;
     justify-content: center;
+    align-items: center;
     color: #003656;
-
+   
  
 }
 .text-container {

@@ -1,5 +1,5 @@
 import React from "react";
-import contactImg from '../../asset/Atenncion al cliente.png';
+import contactImg from '../../asset/Atenncion al cliente-min.png';
 import './style.css';
 
 /**
@@ -17,20 +17,20 @@ const Contact = () => {
   }
 
   return (
-    <>
-      <div className='Contact-Form'>
+  
+      <section className='Contact-Form'>
        <div className="contact-Text">
           <h1>Contacto</h1>
           <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
-          <button className="button-FormContact" onClick={openContactForm}>
+          <button className="button-Contact" onClick={openContactForm}>
             Solicita tu Cotización
           </button>
       </div> 
        
-        <img src={contactImg} alt="Ilustración de atención" /> 
-       
-      </div>
-    </>
+        <img className="contact-Img" src={contactImg} alt="Ilustración de atención" /> 
+    
+      </section>
+    
   );
 }
 
